@@ -32,18 +32,16 @@ Sonuxt &amp; Tailwind
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=FFFFFF)][vuejs-href]
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF)][tailwind-href]
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF)][typescript-href]
-[![SQLite](https://img.shields.io/badge/Node.js%20SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=FFFFFF)][sqlite-href]  
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=FFFFFF)][sqlite-href]  
 
 ---
 
 <a href="https://saas-template.nuxt.dev/" target="_blank">
-  <picture>
-
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png">
-    <img alt="Nuxt SaaS Template" src="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png">
-
-  </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-dark.png" />
+  <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png" />
+  <img alt="Nuxt SaaS Template" src="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png" />
+</picture>
 </a>
 
 ## Features
@@ -72,11 +70,7 @@ Sonuxt &amp; Tailwind
 * 🦾 [TypeScript][typescript-href] - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
 * 😃 [Iconify][iconify-href] - A set of tools created to make it easy to work with different icon sets in a consistent way.
-  + Included:
-    - [Bootstrap Icons][bootstrap-href] 
-    - [Flag Icons][flagicons-href]
-    - [Lucide Icons][lucide-href]
-    - [Simple Icons][simpleicons-href]
+  + Included: [Bootstrap Icons][bootstrap-href], [Flag Icons][flagicons-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
 
 ## Environment 
 
