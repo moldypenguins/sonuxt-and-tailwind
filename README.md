@@ -76,8 +76,7 @@ Sonuxt &amp; Tailwind
 
 ### IDE
 
-For the best experience, use [VS Code](https://code.visualstudio.com/) with: 
-  + [Volar](https://github.com/johnsoncodehk/volar)
+For the best experience, use [VS Code](https://code.visualstudio.com/) with: [Volar](https://github.com/johnsoncodehk/volar)
 
 ### Quick Start
 
@@ -121,6 +120,12 @@ Locally preview production build:
 
 ```bash
 pnpm preview
+```
+
+Start production server:
+
+```bash
+pnpm start
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
