@@ -87,14 +87,18 @@ OR
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit moldypenguins/sonuxt-and-tailwind my-nuxt-app
-cd my-nuxt-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+npx degit moldypenguins/sonuxt-and-tailwind [my-nuxt-app]
 ```
 
 ### Setup
 
-Make sure to install the dependencies:
+If you don't have pnpm installed, run:
+
+```bash
+npm install -g pnpm
+```
+
+Install the dependencies:
 
 ```bash
 pnpm install
@@ -122,7 +126,7 @@ Locally preview production build:
 pnpm preview
 ```
 
-Start production server:
+Start the production server:
 
 ```bash
 pnpm start
