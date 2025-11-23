@@ -141,7 +141,7 @@ Install [Renovate GitHub app](https://github.com/apps/renovate/installations/sel
 ## Attributions
 
 * [vitesse-nuxt](https://github.com/antfu/vitesse-nuxt) - [Anthony Fu](https://antfu.me)  
-* [nuxt-ui-templates/saas](https://github.com/nuxt-ui-templates/saas) - [Nuxt Team](https://saas-template.nuxt.dev)  
+* [nuxt-ui-templates/saas](https://github.com/nuxt-ui-templates/saas) - [Nuxt Team](https://nuxt.dev)  
 
 ## Author
 
