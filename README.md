@@ -92,7 +92,11 @@ npx degit moldypenguins/sonuxt-and-tailwind [my-nuxt-app]
 
 ### Setup
 
-If you don't have pnpm installed, run `npm install -g pnpm` .
+If you don't have pnpm installed, run:
+
+```bash
+npm install -g pnpm
+```
 
 Install the dependencies:
 
