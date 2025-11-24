@@ -24,13 +24,38 @@ export default defineNuxtConfig({
 
   devtools: { enabled: (process.env.NODE_ENV || 'local') !== 'production' },
 
-  colorMode: { preference: 'light' },
+  content: {
+    experimental: { sqliteConnector: 'native' },
+    build: { markdown: { highlight: { theme: { default: 'github-light', dark: 'github-dark' } } } }
+  },
 
-  content: { experimental: { sqliteConnector: 'native' } },
+  colorMode: { preference: 'light' },
 
   css: ['~/assets/css/main.css'],
 
-  fonts: { provider: 'google' },
+  fonts: {
+    provider: 'google'
+    /*
+    defaults: {
+      weights: [400],
+      styles: ['normal', 'italic'],
+      fallbacks: {
+        'serif': ['Lucida Serif'],
+        'sans-serif': ['Lucida Sans'],
+        'monospace': ['Lucida Console'],
+        'cursive': ['Lucida Handwriting']
+      }
+    }
+    */
+  },
+
+  icon: { provider: 'iconify' },
+
+  ui: {
+    theme: {
+      colors: ['primary', 'secondary', 'tertiary', 'success', 'info', 'warning', 'error', 'neutral']
+    }
+  },
 
   router: {
     options: {
@@ -43,6 +68,14 @@ export default defineNuxtConfig({
     '/docs': { redirect: '/docs/getting-started', prerender: false }
   },
 
+  runtimeConfig: {
+    public: {
+      siteUrl: 'http://localhost:3000',
+      siteTitle: 'Sonuxt & Tailwind',
+      siteDescription: 'A NuxtUI and TailwindCSS Starter Template.'
+    }
+  },
+
   future: {
     compatibilityVersion: 5,
     typescriptBundlerResolution: true
@@ -50,8 +83,8 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-01-15',
 
-  /*
   experimental: {
+    /*
     asyncContext: true,
     asyncEntry: true,
     clientFallback: true,
@@ -62,22 +95,18 @@ export default defineNuxtConfig({
     renderJsonPayloads: true,
     restoreState: true,
     typescriptPlugin: true
+    */
+    viewTransition: true
   },
-  */
 
   nitro: {
     prerender: {
       routes: ['/'],
-      crawlLinks: true
-    },
-    esbuild: {
-      options: {
-        target: 'esnext',
-        minify: false
-      }
+      crawlLinks: true,
+      autoSubfolderIndex: false
     },
     // https://nitro.build/guide/websocket
-    experimental: { websocket: true }
+    experimental: { websocket: true, openAPI: true }
   },
 
   typescript: {
@@ -117,23 +146,4 @@ export default defineNuxtConfig({
     strategy: 'no_prefix',
     detectBrowserLanguage: { fallbackLocale: 'en' }
   }
-  /*
-  llms: {
-    domain: stringifyParsedURL(site_url),
-    title: site_name,
-    description: site_description
-    sections: [
-      {
-        title: 'English Docs',
-        description: 'English document collection',
-        contentCollection: 'docs_en'
-      },
-      {
-        title: 'French Docs',
-        description: 'French document collection',
-        contentCollection: 'docs_fr'
-      }
-    ]
-  }
-  */
 })
