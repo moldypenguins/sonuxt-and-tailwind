@@ -12,14 +12,16 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@vueuse/nuxt',
     'nuxt-auth-utils',
+    'nuxt-charts',
     'nuxt-llms',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    'nuxt-qrcode'
   ],
 
   devServer: {
     host: process.env.NUXT_DEVSERVER_HOST || 'localhost',
     port: parseInt(process.env.NUXT_DEVSERVER_PORT || '3000'),
-    https: process.env.NUXT_DEVSERVER_HTTPS ? true : false
+    https: parseInt(process.env.NUXT_DEVSERVER_HTTPS || '0') === 1 ? true : false
   },
 
   devtools: { enabled: (process.env.NODE_ENV || 'local') !== 'production' },
@@ -49,7 +51,7 @@ export default defineNuxtConfig({
     */
   },
 
-  icon: { provider: 'iconify' },
+  icon: { provider: 'iconify', collections: ['bi', 'flag', 'lucide', 'simple-icons'] },
 
   ui: {
     theme: {
@@ -139,11 +141,31 @@ export default defineNuxtConfig({
 
   i18n: {
     locales: [
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'fr', name: 'French', file: 'fr.json' }
+      { code: 'en', name: 'English', file: 'en.json', language: 'en-US', dir: 'ltr' },
+      { code: 'fr', name: 'French', file: 'fr.json', language: 'fr-FR', dir: 'ltr' }
     ],
     defaultLocale: 'en',
     strategy: 'no_prefix',
     detectBrowserLanguage: { fallbackLocale: 'en' }
+  },
+
+  llms: {
+    domain: process.env.NUXT_PUBLIC_SITE_URL || 'localhost'
+    /*
+    title: environment.site.title,
+    description: environment.site.description,
+    sections: [
+      {
+        title: 'English Docs',
+        description: 'English document collection',
+        contentCollection: 'docs_en'
+      },
+      {
+        title: 'French Docs',
+        description: 'French document collection',
+        contentCollection: 'docs_fr'
+      }
+    ]
+    */
   }
 })

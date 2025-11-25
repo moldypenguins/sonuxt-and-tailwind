@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { Collections } from '@nuxt/content'
 import * as locales from '@nuxt/ui/locale'
 
 const { locale } = useI18n()
@@ -8,6 +9,8 @@ const direction = computed(() => locales[locale.value].dir)
 const color_mode = useColorMode()
 const theme_color = computed(() => (color_mode.value === 'dark' ? 'sonic' : 'tails'))
 const theme_icon = computed(() => (color_mode.value === 'dark' ? '/sonic.ico' : '/tails.ico'))
+
+const runtime = useRuntimeConfig()
 
 useHead({
   meta: [
@@ -20,18 +23,23 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt SaaS template',
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/saas-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/saas-light.png',
-  twitterCard: 'summary_large_image'
+  titleTemplate: `%s - ${runtime.public.siteTitle}`
 })
 
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'), {
-  transform: (data) => data.find((item) => item.path === '/docs')?.children || []
-})
-const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs'), {
-  server: false
-})
+const { data: navigation } = await useAsyncData(
+  'navigation',
+  () => queryCollectionNavigation(`docs_${locale.value}` as keyof Collections),
+  {
+    transform: (data) => data.find((item) => item.path === '/docs')?.children || []
+  }
+)
+const { data: files } = useLazyAsyncData(
+  'search',
+  () => queryCollectionSearchSections(`docs_${locale.value}` as keyof Collections),
+  {
+    server: false
+  }
+)
 
 const links = [
   {

@@ -1,8 +1,42 @@
 <script setup lang="ts">
+import type {
+  BlogEnCollectionItem,
+  BlogFrCollectionItem,
+  PostsEnCollectionItem,
+  PostsFrCollectionItem
+} from '@nuxt/content'
+
+const { locale } = useI18n()
 const route = useRoute()
 
-const { data: page } = await useAsyncData('blog', () => queryCollection('blog').first())
-const { data: posts } = await useAsyncData(route.path, () => queryCollection('posts').all())
+const { data: page } = await useAsyncData(
+  'blog',
+  async () => {
+    let content = await queryCollection(`blog_${locale.value}`).first()
+    // fallback to default locale
+    if (!content && locale.value !== 'en') {
+      content = await queryCollection('blog_en').first()
+    }
+    return content as BlogEnCollectionItem | BlogFrCollectionItem
+  },
+  {
+    watch: [locale] // Refetch when locale changes
+  }
+)
+const { data: posts } = await useAsyncData(
+  `${route.path}-${locale.value}`,
+  async () => {
+    let content = await queryCollection(`posts_${locale.value}`).all()
+    // fallback to default locale
+    if (!content && locale.value !== 'en') {
+      content = await queryCollection('posts_en').all()
+    }
+    return content as (PostsEnCollectionItem | PostsFrCollectionItem)[]
+  },
+  {
+    watch: [locale] // Refetch when locale changes
+  }
+)
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
@@ -19,14 +53,12 @@ defineOgImageComponent('Saas')
 
 <template>
   <UContainer>
-    <UPageHeader
-      v-bind="page"
-      class="py-[50px]"
-    />
+    <UPageHeader v-bind="page" class="py-[50px]" />
 
     <UPageBody>
       <UBlogPosts>
         <UBlogPost
+          v-if="posts && posts.length > 0"
           v-for="(post, index) in posts"
           :key="index"
           :to="post.path"

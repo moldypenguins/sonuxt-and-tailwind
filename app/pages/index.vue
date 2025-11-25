@@ -1,5 +1,22 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryCollection('index').first())
+import type { IndexEnCollectionItem, IndexFrCollectionItem } from '@nuxt/content'
+
+const { locale } = useI18n()
+
+const { data: page } = await useAsyncData(
+  'index',
+  async () => {
+    let content = await queryCollection(`index_${locale.value}`).first()
+    // fallback to default locale
+    if (!content && locale.value !== 'en') {
+      content = await queryCollection('index_en').first()
+    }
+    return content as IndexEnCollectionItem | IndexFrCollectionItem
+  },
+  {
+    watch: [locale] // Refetch when locale changes
+  }
+)
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
@@ -15,20 +32,13 @@ useSeoMeta({
 
 <template>
   <div v-if="page">
-    <UPageHero
-      :title="page.title"
-      :description="page.description"
-      :links="page.hero.links"
-    >
+    <UPageHero :title="page.title" :description="page.description" :links="page.hero.links">
       <template #top>
         <HeroBackground />
       </template>
 
       <template #title>
-        <MDC
-          :value="page.title"
-          unwrap="p"
-        />
+        <MDC :value="page.title" unwrap="p" />
       </template>
 
       <PromotionalVideo />
@@ -46,17 +56,9 @@ useSeoMeta({
       <ImagePlaceholder />
     </UPageSection>
 
-    <UPageSection
-      :title="page.features.title"
-      :description="page.features.description"
-    >
+    <UPageSection :title="page.features.title" :description="page.features.description">
       <UPageGrid>
-        <UPageCard
-          v-for="(item, index) in page.features.items"
-          :key="index"
-          v-bind="item"
-          spotlight
-        />
+        <UPageCard v-for="(item, index) in page.features.items" :key="index" v-bind="item" spotlight />
       </UPageGrid>
     </UPageSection>
 
@@ -75,10 +77,7 @@ useSeoMeta({
           :ui="{ description: 'before:content-[open-quote] after:content-[close-quote]' }"
         >
           <template #footer>
-            <UUser
-              v-bind="testimonial.user"
-              size="lg"
-            />
+            <UUser v-bind="testimonial.user" size="lg" />
           </template>
         </UPageCard>
       </UPageColumns>
@@ -86,11 +85,7 @@ useSeoMeta({
 
     <USeparator />
 
-    <UPageCTA
-      v-bind="page.cta"
-      variant="naked"
-      class="overflow-hidden"
-    >
+    <UPageCTA v-bind="page.cta" variant="naked" class="overflow-hidden">
       <LazyStarsBg />
     </UPageCTA>
   </div>
