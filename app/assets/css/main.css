@@ -8,10 +8,10 @@
 @theme static {
   --spacing: 0.25rem;
 
-  --font-sans: 'Roboto Sans', sans-serif;
-  --font-serif: 'Roboto Serif', serif;
-  --font-mono: 'Roboto Mono', monospace;
-  --font-cursive: 'Italianno', cursive;
+  --font-sans: 'Roboto Sans', 'PT Sans', sans-serif;
+  --font-serif: 'Roboto Serif', 'PT Serif', serif;
+  --font-mono: 'Roboto Mono', 'PT Mono', monospace;
+  --font-display: 'Roboto Condensed', 'PT Sans Narrow', sans-serif;
 }
 
 :root {
@@ -20,30 +20,5 @@
   --ui-header-height: --spacing(16);
 }
 
-/* https://tailwindcss.com/docs/colors#default-color-palette-reference */
-/* https://ui.nuxt.com/docs/getting-started/theme/design-system */
-@theme {
-  --color-tails-50: oklch(0.974 0.02 74.66);
-  --color-tails-100: oklch(0.941 0.05 76.89);
-  --color-tails-200: oklch(0.89 0.107 81.24);
-  --color-tails-300: oklch(0.831 0.17 86.25);
-  --color-tails-400: oklch(0.735 0.15 86.13);
-  --color-tails-500: oklch(0.632 0.129 86.4);
-  --color-tails-600: oklch(0.537 0.11 85.97);
-  --color-tails-700: oklch(0.432 0.089 85.91);
-  --color-tails-800: oklch(0.337 0.069 86);
-  --color-tails-900: oklch(0.235 0.048 86.17);
-  --color-tails-950: oklch(0.189 0.039 86.53);
-
-  --color-sonic-50: oklch(0.966 0.015 277.91);
-  --color-sonic-100: oklch(0.925 0.033 274.59);
-  --color-sonic-200: oklch(0.846 0.07 274.09);
-  --color-sonic-300: oklch(0.78 0.102 270.9);
-  --color-sonic-400: oklch(0.702 0.14 268.17);
-  --color-sonic-500: oklch(0.628 0.18 263.14);
-  --color-sonic-600: oklch(0.551 0.184 260.4);
-  --color-sonic-700: oklch(0.477 0.16 260.48);
-  --color-sonic-800: oklch(0.367 0.122 260.25);
-  --color-sonic-900: oklch(0.253 0.084 260.14);
-  --color-sonic-950: oklch(0.19 0.064 260.54);
-}
+@import './colors';
+@import './themes';

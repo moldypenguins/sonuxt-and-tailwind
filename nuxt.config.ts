@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/content',
     '@nuxtjs/i18n',
+    '@pinia/nuxt',
     '@vueuse/nuxt',
     'nuxt-auth-utils',
     'nuxt-charts',
@@ -35,35 +36,13 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  fonts: {
-    provider: 'google'
-    /*
-    defaults: {
-      weights: [400],
-      styles: ['normal', 'italic'],
-      fallbacks: {
-        'serif': ['Lucida Serif'],
-        'sans-serif': ['Lucida Sans'],
-        'monospace': ['Lucida Console'],
-        'cursive': ['Lucida Handwriting']
-      }
-    }
-    */
-  },
+  fonts: { provider: 'google' },
 
   icon: { provider: 'iconify', collections: ['bi', 'flag', 'lucide', 'simple-icons'] },
 
-  ui: {
-    theme: {
-      colors: ['primary', 'secondary', 'tertiary', 'success', 'info', 'warning', 'error', 'neutral']
-    }
-  },
+  ui: { theme: { colors: ['primary', 'secondary', 'tertiary', 'success', 'info', 'warning', 'error', 'neutral'] } },
 
-  router: {
-    options: {
-      scrollBehaviorType: 'smooth'
-    }
-  },
+  router: { options: { scrollBehaviorType: 'smooth' } },
 
   routeRules: {
     //'/api/**': { cors: true },
@@ -77,6 +56,9 @@ export default defineNuxtConfig({
       siteDescription: 'A NuxtUI and TailwindCSS Starter Template.'
     }
   },
+
+  // By default, Nuxt 4 auto-imports stores from app/stores
+  pinia: { storesDirs: ['./data/stores'] },
 
   future: {
     compatibilityVersion: 5,
@@ -118,13 +100,11 @@ export default defineNuxtConfig({
   },
 
   eslint: {
-    checker: {
-      configType: 'flat',
-      lintOnStart: false
-    },
     config: {
       standalone: false,
-      nuxt: { sortConfigKeys: true }
+      formatters: true,
+      nuxt: { sortConfigKeys: true },
+      typescript: { strict: true }
     }
   },
 

@@ -29,9 +29,9 @@ Sonuxt &amp; Tailwind
 [![Nitro](https://img.shields.io/badge/Nitro-ECDC5A?style=for-the-badge&logo=unjs&logoColor=000000)][nitro-href]
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFFFFF)][vite-href]
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=FFFFFF)][vuejs-href]
+[![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=FFFFFF)][pinia-href]
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF)][tailwind-href]
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF)][typescript-href]
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=FFFFFF)][sqlite-href]  
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF)][typescript-href]  
 
 [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA)][sponsor-href]
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
@@ -64,6 +64,8 @@ Sonuxt &amp; Tailwind
 * ⚡️ [Vite][vite-href] - A blazing fast frontend build tool powering the next generation of web applications.
 
 * 📃 [Vue.js][vuejs-href] - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+* 🍍 [Pinia][pinia-href] - Intuitive, type safe and flexible Store for Vue.
 
 * 🤖 [AI SDK][aisdk-href] - A toolkit designed to help you build AI-powered applications and agents.
 
@@ -174,6 +176,7 @@ See [LICENSE.md](LICENSE.md) or [https://opensource.org/license/mit](https://ope
 [nitro-href]: https://nitro.build
 [vite-href]: https://vite.dev
 [vuejs-href]: https://vuejs.org
+[pinia-href]: https://nodejs.org/api/sqlite.html
 [tailwind-href]: https://tailwindcss.com
 [typescript-href]: https://www.typescriptlang.org
 [sqlite-href]: https://nodejs.org/api/sqlite.html

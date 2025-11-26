@@ -2,9 +2,9 @@
 import type { DropdownMenuItem } from '@nuxt/ui'
 
 const appConfig = useAppConfig()
-const themes = useThemes()
+const themes = appConfig.themes.available
 
-const colors = Object.keys(themes.sonic.colors)
+const colors = Object.keys(themes.default.colors)
 
 const items = computed<DropdownMenuItem[]>(() => [
   {

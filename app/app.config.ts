@@ -1,7 +1,5 @@
 import type { Direction } from '@nuxt/ui'
 
-const themes = useThemes()
-
 export default defineAppConfig({
   dir: 'ltr' as Direction,
   toaster: {
@@ -10,17 +8,9 @@ export default defineAppConfig({
     max: 5,
     expand: true
   },
-  ui: { colors: themes.sonic.colors },
   socials: {
-    twitter: 'Atinux',
-    github: 'Atinux/content-wind',
-    mastodon: '@atinux@webtoo.ls',
-    bluesky: 'atinux.com'
-  },
-  icon: {
-    aliases: {
-      'dark-mode': 'lucide-moon',
-      'light-mode': 'lucide-sun'
-    }
+    github: 'moldypenguins',
+    discord: 'moldypenguins',
+    telegram: 'moldypenguins'
   }
 })

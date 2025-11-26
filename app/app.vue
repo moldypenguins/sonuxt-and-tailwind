@@ -7,18 +7,19 @@ const language = computed(() => locales[locale.value].code)
 const direction = computed(() => locales[locale.value].dir)
 
 const color_mode = useColorMode()
-const theme_color = computed(() => (color_mode.value === 'dark' ? 'sonic' : 'tails'))
-const theme_icon = computed(() => (color_mode.value === 'dark' ? '/sonic.ico' : '/tails.ico'))
-
 const runtime = useRuntimeConfig()
+const app = useAppConfig()
+
+const is_dark = computed(() => color_mode.value === 'dark')
+const favicon = computed(() => (is_dark ? 'sonic.svg' : 'tails.svg'))
 
 useHead({
   meta: [
     { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { name: 'theme-color', key: 'theme-color', content: theme_color }
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    //{ name: 'theme-color', key: 'theme-color', content: '' }
   ],
-  link: [{ rel: 'icon', href: theme_icon }],
+  link: [{ rel: 'icon', href: favicon.value }],
   htmlAttrs: { lang: language, dir: direction }
 })
 
