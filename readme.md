@@ -13,8 +13,8 @@ Sonuxt &amp; Tailwind
 ---
 
 [![License](https://img.shields.io/github/license/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![Version](https://img.shields.io/github/v/release/moldypenguins/sonuxt-and-tailwind?include_prereleases&sort=semver&display_name=release&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![Size](https://img.shields.io/github/repo-size/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Size)][github-href]
+[![Repo Size](https://img.shields.io/github/repo-size/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Size)][github-href]
+[![Release](https://img.shields.io/github/v/release/moldypenguins/sonuxt-and-tailwind?include_prereleases&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Released](https://img.shields.io/github/release-date-pre/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Released)][github-href]
 [![Downloads](https://img.shields.io/github/downloads/moldypenguins/sonuxt-and-tailwind/total?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
 
