@@ -1,3 +1,8 @@
+<!--
+  Purpose: Gallery/grid of pictures with responsive layout.
+  Convention: Comments concise; prefer Tailwind utilities; lazy-load images.
+  Accessibility: Alt text and focusable controls where applicable.
+-->
 <script setup lang="ts">
 defineProps<{
   orientation: 'horizontal' | 'vertical'

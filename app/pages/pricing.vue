@@ -1,3 +1,8 @@
+<!--
+  Purpose: Pricing page with plans and features.
+  Convention: Comments concise; no hardcoded strings; keep plan order stable.
+  Accessibility: Ensure tables/cards are screen-reader friendly.
+-->
 <script setup lang="ts">
 import type { Collections, PricingEnCollectionItem, PricingFrCollectionItem } from '@nuxt/content'
 
@@ -78,7 +83,7 @@ const items = ref([
 
     <UPageSection>
       <UPageLogos>
-        <UIcon v-for="icon in page.logos.icons" :key="icon" :name="icon" class="w-12 h-12 flex-shrink-0 text-muted" />
+        <UIcon v-for="icon in page.logos.icons" :key="icon" :name="icon" class="w-12 h-12 shrink-0 text-muted" />
       </UPageLogos>
     </UPageSection>
 

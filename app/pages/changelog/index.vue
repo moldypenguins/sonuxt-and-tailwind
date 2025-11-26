@@ -1,3 +1,8 @@
+<!--
+  Purpose: Changelog listing page.
+  Convention: Comments concise; reflect numeric ordering from content files.
+  Accessibility: Semantic list of entries; keyboard-friendly navigation.
+-->
 <script setup lang="ts">
 import type {
   ChangelogEnCollectionItem,

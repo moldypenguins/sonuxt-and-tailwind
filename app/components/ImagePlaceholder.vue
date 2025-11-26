@@ -1,12 +1,14 @@
+<!--
+  Purpose: Placeholder image component for loading states or missing media.
+  Convention: Comments concise; use semantic markup; avoid hardcoded strings.
+  Performance: Prefer lightweight SVG/CSS over heavy rasters.
+-->
 <template>
-  <UPageCard
-    variant="subtle"
-  >
-    <div class="relative overflow-hidden rounded-sm border border-dashed border-accented opacity-75 px-4 flex items-center justify-center aspect-video">
-      <svg
-        class="absolute inset-0 h-full w-full stroke-inverted/10"
-        fill="none"
-      >
+  <UPageCard variant="subtle">
+    <div
+      class="relative overflow-hidden rounded-sm border border-dashed border-accented opacity-75 px-4 flex items-center justify-center aspect-video"
+    >
+      <svg class="absolute inset-0 h-full w-full stroke-inverted/10" fill="none">
         <defs>
           <pattern
             id="pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e"
@@ -19,12 +21,7 @@
             <path d="M-3 13 15-5M-5 5l18-18M-1 21 17 3" />
           </pattern>
         </defs>
-        <rect
-          stroke="none"
-          fill="url(#pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e)"
-          width="100%"
-          height="100%"
-        />
+        <rect stroke="none" fill="url(#pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e)" width="100%" height="100%" />
       </svg>
 
       <slot />

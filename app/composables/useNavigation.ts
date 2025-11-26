@@ -1,3 +1,6 @@
+// Purpose: Provide navigation items and active route helpers.
+// Convention: Explicit types; comments concise; prefer computed for derived state.
+// Content: Keep ordering stable; source labels from i18n/content.
 import type { ContentNavigationItem } from '@nuxt/content'
 import { findPageChildren, findPageBreadcrumb } from '@nuxt/content/utils'
 import { mapContentNavigation } from '@nuxt/ui/utils/content'

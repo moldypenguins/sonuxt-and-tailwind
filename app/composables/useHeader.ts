@@ -1,3 +1,6 @@
+// Purpose: Manage header state (title, actions, visibility).
+// Convention: Keep comments concise; prefer computed over watchers; no side effects on import.
+// Accessibility: Ensure focus order and semantics in header-related UI.
 export function useHeader() {
   const route = useRoute()
 

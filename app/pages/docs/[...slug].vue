@@ -1,3 +1,8 @@
+<!--
+  Purpose: Docs catch-all route rendering markdown content via `@nuxt/content`.
+  Convention: Comments concise; rely on content files and i18n; no hardcoded text.
+  Accessibility: Semantic headings, skip links if needed, and focus management.
+-->
 <script setup lang="ts">
 import type { DocsEnCollectionItem, DocsFrCollectionItem } from '@nuxt/content'
 

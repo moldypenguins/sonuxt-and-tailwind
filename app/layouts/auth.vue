@@ -1,3 +1,8 @@
+<!--
+  Purpose: Authentication layout for login/signup flows.
+  Convention: Keep comments brief; prefer intent over implementation details.
+  Security: Avoid logging sensitive data; use runtime config for secrets.
+-->
 <template>
   <div class="h-screen flex items-center justify-center px-4">
     <UButton
@@ -9,10 +14,7 @@
       class="absolute left-8 top-8 rounded-full z-10"
     />
 
-    <UPageCard
-      variant="subtle"
-      class="max-w-sm w-full"
-    >
+    <UPageCard variant="subtle" class="max-w-sm w-full">
       <slot />
     </UPageCard>
   </div>

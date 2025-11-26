@@ -3,14 +3,14 @@
 Purpose: quickly orient an AI coding assistant so it can be immediately productive editing, adding features, or fixing bugs.
 
 * **Big picture architecture**
-  + Nuxt 4 application using the `app/` directory entrypoint (`app.vue`,     `app.config.ts`) with file‑system routing from `pages/` (dynamic routes: `[slug].vue`, catch‑alls: `[...slug].vue`).
+  + Nuxt 4 application using the `app/` directory entrypoint (`app.vue`, `app.config.ts`) with file‑system routing from `pages/` (dynamic routes: `[slug].vue`, catch‑alls: `[...slug].vue`).
   + Content via `@nuxt/content` with multilingual markdown/YAML stored under `content/<locale>/` (English `en/`, French `fr/`). Numbered filenames control ordering.
   + Internationalization handled by `@nuxtjs/i18n`; JSON locale messages in `i18n/locales/`; language switch through `LocaleSelect.vue` and route middleware.
-  + Styling: Tailwind CSS (utility‑first) with theme variables & palettes in `assets/css/` (`colors.css`,     `themes.css`,     `main.css`).
+  + Styling: Tailwind CSS (utility‑first) with theme variables & palettes in `assets/css/` (`colors.css`, `themes.css`, `main.css`).
   + Shared config & types: `shared/` (utilities, environment), global declarations in `types/index.d.ts`.
   + State & logic encapsulated in composables (`app/composables/`): navigation, search, header/footer, language helpers.
   + Components grouped by domain: general UI (`components/`), content blocks (`components/content`), social/SEO images (`components/OgImage/`), theming (`ThemePicker.vue`).
-  + Layout scoping (`layouts/`): `default.vue`,     `docs.vue`,     `auth.vue`, etc. for route‑level wrappers.
+  + Layout scoping (`layouts/`): `default.vue`, `docs.vue`, `auth.vue`, etc. for route‑level wrappers.
   + Tooling: PNPM, ESLint, Prettier, strict TS config; aims for a lean multilingual SaaS/docs/blog starter.
 
 * **When making changes**
@@ -19,7 +19,7 @@ Purpose: quickly orient an AI coding assistant so it can be immediately producti
   + Preserve numeric ordering in content filenames; only renumber intentionally and adjust related indices.
   + Run lint & type checks before completion: `pnpm run lint`;  `pnpm run typecheck` (add script if missing).
   + Validate dark/light themes, responsive breakpoints, and a11y (focus order, alt text, semantic headings) for UI changes.
-  + Update composables (`useNavigation.ts`,     `useHeader.ts`,     `useFooter.ts`) when altering structural nav/footer/header items.
+  + Update composables (`useNavigation.ts`, `useHeader.ts`, `useFooter.ts`) when altering structural nav/footer/header items.
   + Reflect environment changes in `shared/environment.ts`; avoid ad‑hoc env access.
   + Confirm before large refactors; default to minimal surface edits.
   + Keep markdown frontmatter consistent; add new fields to all localized copies.
@@ -31,17 +31,18 @@ Purpose: quickly orient an AI coding assistant so it can be immediately producti
   + Theme & design tokens: `assets/css/`.
   + Reusable logic/state: `app/composables/`.
   + SEO/meta images: `components/OgImage/`.
-  + Types & env: `shared/types/`,  `shared/environment.ts`, global `types/index.d.ts`.
+  + Types & env: `shared/types/`, `shared/environment.ts`, global `types/index.d.ts`.
   + i18n messages: `i18n/locales/*.json`.
 
 * **Project-specific conventions**
-  + Components: PascalCase filenames;  `<script setup lang="ts">` preferred; one responsibility per SFC.
+  + Comments: comment code following the project's conventions; keep comments concise, consistent, and helpful.
+  + Components: PascalCase filenames; `<script setup lang="ts">` preferred; one responsibility per SFC.
   + Composables: `useX.ts` naming; return explicit refs/computeds; avoid side effects on import.
-  + Content ordering: numeric prefixes (e.g. `1.index.md`) define list order; keep stable for links/bookmarks.
+  + Content ordering: numeric prefixes (e.g.`1.index.md`) define list order; keep stable for links/bookmarks.
   + Strings: no hardcoded user‑visible text—use i18n or content.
   + Styling: prefer Tailwind utilities; avoid custom CSS unless extracting patterns or tokens; use configured color vars.
-  + Commit convention: Conventional Commits (`feat:`,     `fix:`,     `docs:`,     `refactor:`,     `chore:`,     `style:`).
-  + Accessibility baseline: landmarks (`<header>`,     `<main>`,     `<footer>`), alt text, focus states, contrast adherence.
+  + Commit convention: Conventional Commits (`feat:`, `fix:`, `docs:`, `refactor:`, `chore:`, `style:`).
+  + Accessibility baseline: landmarks (`<header>`, `<main>`, `<footer>`), alt text, focus states, contrast adherence.
   + Avoid large component templates; extract logic if complexity grows.
 
 * **Common code standards to follow**

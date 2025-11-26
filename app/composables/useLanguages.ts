@@ -1,3 +1,6 @@
+// Purpose: Language helpers for i18n routing and selection.
+// Convention: Comments concise and intent-focused; avoid hardcoded strings.
+// Notes: Use `@nuxtjs/i18n` APIs and `i18n/locales/*.json` for messages.
 export function useLanguages() {
   const language = useCookie('nuxt-ui-language', { default: () => 'en' })
   const languages = computed(() =>

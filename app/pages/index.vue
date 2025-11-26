@@ -1,3 +1,8 @@
+<!--
+  Purpose: Home/landing page.
+  Convention: Comments concise; source text via content/i18n; use Tailwind utilities.
+  Accessibility: Semantic headings and logical focus order.
+-->
 <script setup lang="ts">
 import type { IndexEnCollectionItem, IndexFrCollectionItem } from '@nuxt/content'
 

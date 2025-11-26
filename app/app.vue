@@ -1,3 +1,8 @@
+<!--
+  Purpose: Root application shell (layout landmarks, theme wrappers)
+  Convention: Comments are concise, consistent, and explain intent over implementation.
+  Accessibility: Ensure <header>, <main>, <footer> landmarks and focus management.
+-->
 <script setup lang="ts">
 import type { Collections } from '@nuxt/content'
 import * as locales from '@nuxt/ui/locale'

@@ -1,3 +1,6 @@
+// Purpose: Search composable for filtering content/docs/blog entries.
+// Convention: Comments are intent-focused; sanitize user input if any dynamic extension.
+// Performance: Debounce expensive operations; prefer computed for derived results.
 import type { UIMessage } from 'ai'
 
 export function useSearch() {

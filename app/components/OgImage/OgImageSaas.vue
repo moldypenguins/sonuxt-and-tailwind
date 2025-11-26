@@ -1,3 +1,8 @@
+<!--
+  Purpose: Generate social/SEO Open Graph images for SaaS pages.
+  Convention: Comments concise; avoid hardcoded text; use brand tokens.
+  Performance: Optimize rendering; cache if applicable.
+-->
 <script setup lang="ts">
 defineOptions({
   inheritAttrs: false

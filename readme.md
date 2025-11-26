@@ -12,13 +12,18 @@ Sonuxt &amp; Tailwind
 
 ---
 
-[![Version](https://img.shields.io/github/package-json/v/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![Downloads](https://img.shields.io/github/downloads/moldypenguins/sonuxt-and-tailwind/total?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![License](https://img.shields.io/github/license/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
+[![License](https://img.shields.io/github/license/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
+[![Version](https://img.shields.io/github/v/release/moldypenguins/sonuxt-and-tailwind?include_prereleases&sort=semver&display_name=release&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
+[![Size](https://img.shields.io/github/repo-size/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Size)][github-href]
+[![Released](https://img.shields.io/github/release-date/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Released)][github-href]
+[![Downloads](https://img.shields.io/github/downloads/moldypenguins/sonuxt-and-tailwind/total?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
+
 [![Contributors](https://img.shields.io/github/contributors/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Open Issues](https://img.shields.io/github/issues/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Last Commit](https://img.shields.io/github/last-commit/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
+
+[![Workflow](https://img.shields.io/github/actions/workflow/status/moldypenguins/sonuxt-and-tailwind/.github%2Fworkflows%2Fci.yml?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![CodeQL](https://img.shields.io/badge/CodeQL-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF)][github-href]
 [![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=FFFFFF)][github-href]
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=FFFFFF)][github-href]

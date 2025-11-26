@@ -1,3 +1,6 @@
+// Purpose: Nuxt app configuration (themes, UI defaults, metadata)
+// Convention: Keep comments concise, consistent, and helpful.
+// Notes: Reflect environment changes via `shared/environment.ts` when needed.
 import type { Direction } from '@nuxt/ui'
 
 export default defineAppConfig({

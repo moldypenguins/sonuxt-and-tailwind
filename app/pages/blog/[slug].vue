@@ -1,3 +1,8 @@
+<!--
+  Purpose: Blog detail page (dynamic route by slug).
+  Convention: Comments concise; content-driven; preserve frontmatter consistency.
+  Accessibility: Semantic article structure and alt text for images.
+-->
 <script setup lang="ts">
 import type { PostsEnCollectionItem, PostsFrCollectionItem } from '@nuxt/content'
 

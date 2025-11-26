@@ -1,3 +1,8 @@
+<!--
+  Purpose: Blog index page for locale-specific content.
+  Convention: Comments concise; derive content via `@nuxt/content`.
+  Accessibility: Semantic lists and headings.
+-->
 <script setup lang="ts">
 import type {
   BlogEnCollectionItem,

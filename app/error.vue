@@ -1,3 +1,8 @@
+<!--
+  Purpose: User-friendly error fallback for production; dev should throw early.
+  Convention: Keep comments concise; describe intent and user impact.
+  i18n: Avoid hardcoded strings; prefer locale messages/content.
+-->
 <script setup lang="ts">
 import type { NuxtError } from '#app'
 
@@ -20,25 +25,29 @@ useSeoMeta({
 })
 
 const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'), {
-  transform: data => data.find(item => item.path === '/docs')?.children || []
+  transform: (data) => data.find((item) => item.path === '/docs')?.children || []
 })
 const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs'), {
   server: false
 })
 
-const links = [{
-  label: 'Docs',
-  icon: 'i-lucide-book',
-  to: '/docs/getting-started'
-}, {
-  label: 'Pricing',
-  icon: 'i-lucide-credit-card',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  icon: 'i-lucide-pencil',
-  to: '/blog'
-}]
+const links = [
+  {
+    label: 'Docs',
+    icon: 'i-lucide-book',
+    to: '/docs/getting-started'
+  },
+  {
+    label: 'Pricing',
+    icon: 'i-lucide-credit-card',
+    to: '/pricing'
+  },
+  {
+    label: 'Blog',
+    icon: 'i-lucide-pencil',
+    to: '/blog'
+  }
+]
 </script>
 
 <template>

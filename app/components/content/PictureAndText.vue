@@ -1,3 +1,8 @@
+<!--
+  Purpose: Content block combining image and text.
+  Convention: Comments concise; source copy from content/i18n; semantic headings.
+  Accessibility: Provide alt text and logical reading order.
+-->
 <script setup lang="ts">
 import { UCard } from '#components'
 

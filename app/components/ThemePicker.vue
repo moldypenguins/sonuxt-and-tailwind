@@ -1,3 +1,8 @@
+<!--
+  Purpose: Theme selection component using configured palettes.
+  Convention: Comments concise; prefer Tailwind utilities and color vars.
+  Performance: Lazy-load if heavy; avoid blocking JS.
+-->
 <script setup lang="ts">
 import type { DropdownMenuItem } from '@nuxt/ui'
 

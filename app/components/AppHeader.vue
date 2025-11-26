@@ -1,3 +1,8 @@
+<!--
+  Purpose: Global application header (branding, navigation, language switch).
+  Convention: Comments concise; use i18n for text; prefer Tailwind utilities.
+  Accessibility: Provide semantic <header> structure and keyboard-friendly navigation.
+-->
 <script setup lang="ts">
 const route = useRoute()
 
