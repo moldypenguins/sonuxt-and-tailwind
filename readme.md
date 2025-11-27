@@ -30,14 +30,6 @@ Sonuxt &amp; Tailwind
 [![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=FFFFFF)][github-href]
 [![Renovate](https://img.shields.io/badge/renovate-308BE3?style=for-the-badge&logo=renovate&logoColor=FFFFFF)][renovate-href]  
 
-[![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=FFFFFF)][nuxt-href]
-[![Nitro](https://img.shields.io/badge/Nitro-ECDC5A?style=for-the-badge&logo=unjs&logoColor=000000)][nitro-href]
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFFFFF)][vite-href]
-[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=FFFFFF)][vuejs-href]
-[![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=FFFFFF)][pinia-href]
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF)][tailwind-href]
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF)][typescript-href]  
-
 [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA)][sponsor-href]
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
 
@@ -53,7 +45,9 @@ Sonuxt &amp; Tailwind
 
 ## Features
 
-* 💚 [Nuxt 4][nuxt-href] - SSR, ESR, File-based routing, components auto importing, modules, etc.
+<a href="https://nuxt.com"><img src="https://img.shields.io/badge/Nuxt%204-00DC82?style=for-the-badge&logo=nuxt&logoColor=020420" valign="middle" /></a>
+<a href="https://nuxt.com/docs/4.x/"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/nuxt/nuxt"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - SSR, ESR, File-based routing, components auto importing, modules, etc.
   + Modules included:
     - [NuxtUI](https://github.com/nuxt/ui) - The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS.
     - [NuxtContent](https://github.com/nuxt/content) - The file-based CMS for your Nuxt application, powered by Markdown and Vue components.
@@ -64,21 +58,37 @@ Sonuxt &amp; Tailwind
     - [Unimport](https://github.com/unjs/unimport) - Unified utils for auto importing APIs in modules.
     - [DevTools](https://github.com/nuxt/devtools) - Unleash Nuxt Developer Experience.
   
-* 🏎️ [Nitro][nitro-href] - Extends your Vite app with a production-ready server, designed to run anywhere.
+<a href="https://nitro.build"><img src="https://img.shields.io/badge/Nitro-ECDC5A?style=for-the-badge&logo=unjs&logoColor=000000" valign="middle" /></a>
+<a href="https://nitro.build/guide"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/nitrojs/nitro"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - Extends your Vite app with a production-ready server, designed to run anywhere.
 
-* ⚡️ [Vite][vite-href] - A blazing fast frontend build tool powering the next generation of web applications.
+<a href="https://vite.dev"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=000000" valign="middle" /></a>
+<a href="https://nuxt.com/docs/4.x"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/nuxt/nuxt"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A blazing fast frontend build tool powering the next generation of web applications.
 
-* 📃 [Vue.js][vuejs-href] - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+<a href="https://vuejs.org"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=000000" valign="middle" /></a>
+<a href="https://vuejs.org/guide"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/vuejs/core"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
-* 🍍 [Pinia][pinia-href] - Intuitive, type safe and flexible Store for Vue.
+<a href="https://pinia.vuejs.org"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=111827" valign="middle" /></a>
+<a href="https://pinia.vuejs.org/core-concepts"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/vuejs/pinia"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - Intuitive, type safe and flexible Store for Vue.
 
-* 🤖 [AI SDK][aisdk-href] - A toolkit designed to help you build AI-powered applications and agents.
+<a href="https://ai-sdk.dev"><img src="https://img.shields.io/badge/AI%20SDK-06B6D4?style=for-the-badge&logo=vercel&logoColor=000000" valign="middle" /></a>
+<a href="https://ai-sdk.dev/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/vercel/ai"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A toolkit designed to help you build AI-powered applications and agents.
 
-* 🎨 [TailwindCSS][tailwind-href] - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
+<a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=000000" valign="middle" /></a>
+<a href="https://tailwindcss.com/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/tailwindlabs/tailwindcss"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
 
-* 🦾 [TypeScript][typescript-href] - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+<a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=000000" valign="middle" /></a>
+<a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/microsoft/TypeScript"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a>- A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-* 😃 [Iconify][iconify-href] - A set of tools created to make it easy to work with different icon sets in a consistent way.
+<a href="https://iconify.design/"><img src="https://img.shields.io/badge/Iconify-026C9C?style=for-the-badge&logo=iconify&logoColor=111827" valign="middle" /></a>
+<a href="https://iconify.design/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
+<a href="https://github.com/iconify/iconify"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A set of tools created to make it easy to work with different icon sets in a consistent way.
   + Included: [Bootstrap Icons][bootstrap-href], [Flag Icons][flagicons-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
 
 ## Environment 
@@ -175,17 +185,6 @@ See [LICENSE.md](LICENSE.md) or [https://opensource.org/license/mit](https://ope
 [github-href]: https://github.com/moldypenguins/sonuxt-and-tailwind
 [dependabot-href]: https://github.com/dependabot
 [renovate-href]: https://www.mend.io/renovate
-
-<!-- ENVIRONMENT LINKS -->
-[nuxt-href]: https://nuxt.com
-[nitro-href]: https://nitro.build
-[vite-href]: https://vite.dev
-[vuejs-href]: https://vuejs.org
-[pinia-href]: https://nodejs.org/api/sqlite.html
-[tailwind-href]: https://tailwindcss.com
-[typescript-href]: https://www.typescriptlang.org
-[sqlite-href]: https://nodejs.org/api/sqlite.html
-[aisdk-href]: https://ai-sdk.dev
 
 <!-- ICONS LINKS -->
 [iconify-href]: https://iconify.design
