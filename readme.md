@@ -18,18 +18,17 @@ Sonuxt &amp; Tailwind
 [![Released](https://img.shields.io/github/release-date-pre/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Released)][github-href]
 [![Downloads](https://img.shields.io/github/downloads/moldypenguins/sonuxt-and-tailwind/total?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
 
-[![Open Issues](https://img.shields.io/github/issues/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![Open Pulls](https://img.shields.io/github/issues-pr/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Pulls)][github-href]
+[![Issues](https://img.shields.io/github/issues-raw/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Issues)][github-href]
+[![Pull Requests](https://img.shields.io/github/issues-pr-raw/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Pull%20Requests)][github-href]
 [![Committers](https://img.shields.io/github/contributors/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Committers)][github-href]
-[![Last Commit](https://img.shields.io/github/last-commit/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Commit)][github-href]
-[![Build](https://img.shields.io/github/actions/workflow/status/moldypenguins/sonuxt-and-tailwind/.github%2Fworkflows%2Fci.yml?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
+[![Last Commit](https://img.shields.io/github/last-commit/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Last%20Commit)][github-href]
+[![Build](https://img.shields.io/github/actions/workflow/status/moldypenguins/sonuxt-and-tailwind/.github%2Fworkflows%2Fci.yml?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Build)][github-href]  
 
 [![CodeQL](https://img.shields.io/badge/CodeQL-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF)][github-href]
 [![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=FFFFFF)][github-href]
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=FFFFFF)][github-href]
 [![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=FFFFFF)][github-href]
-[![Renovate](https://img.shields.io/badge/renovate-308BE3?style=for-the-badge&logo=renovate&logoColor=FFFFFF)][renovate-href]  
-
+[![Renovate](https://img.shields.io/badge/renovate-308BE3?style=for-the-badge&logo=renovate&logoColor=FFFFFF)][renovate-href]
 [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA)][sponsor-href]
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
 
