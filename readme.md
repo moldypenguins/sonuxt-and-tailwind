@@ -157,8 +157,6 @@ Start the production server:
 pnpm start
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
 ## Attributions
 
 * [vitesse-nuxt](https://github.com/antfu/vitesse-nuxt) - [Anthony Fu](https://antfu.me)  
