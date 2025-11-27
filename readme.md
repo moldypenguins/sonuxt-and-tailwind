@@ -72,7 +72,7 @@ Sonuxt &amp; Tailwind
 
 <a href="https://pinia.vuejs.org"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=111827" valign="middle" /></a>
 <a href="https://pinia.vuejs.org/core-concepts"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/vuejs/pinia"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - Intuitive, type safe and flexible Store for Vue.
+<a href="https://github.com/vuejs/pinia"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - An intuitive, type safe and flexible Store for Vue.
 
 <a href="https://ai-sdk.dev"><img src="https://img.shields.io/badge/AI%20SDK-FFFFFF?style=for-the-badge&logo=vercel&logoColor=000000" valign="middle" /></a>
 <a href="https://ai-sdk.dev/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
@@ -84,7 +84,7 @@ Sonuxt &amp; Tailwind
 
 <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=000000" valign="middle" /></a>
 <a href="https://www.typescriptlang.org/docs/"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/microsoft/TypeScript"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>- A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+<a href="https://github.com/microsoft/TypeScript"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
 <a href="https://iconify.design/"><img src="https://img.shields.io/badge/Iconify-026C9C?style=for-the-badge&logo=iconify&logoColor=111827" valign="middle" /></a>
 <a href="https://iconify.design/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
@@ -95,7 +95,14 @@ Sonuxt &amp; Tailwind
 
 ### IDE
 
-For the best experience, use [VS Code](https://code.visualstudio.com/) with: [Volar](https://github.com/johnsoncodehk/volar)
+For the best experience, use [VS Code](https://code.visualstudio.com) with: 
+  + Vue (Official) <a href="https://marketplace.visualstudio.com/items?itemName=Vue.volar"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/vuejs/language-tools"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+  + Vite <a href="https://marketplace.visualstudio.com/items?itemName=antfu.vite"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/antfu/vscode-vite"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+  + Vitest <a href="https://marketplace.visualstudio.com/items?itemName=vitest.explorer"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/vitest-dev/vscode"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+  + Tailwind CSS IntelliSense <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/tailwindlabs/tailwindcss-intellisense"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+  + EditorConfig for VS Code <a href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/editorconfig/editorconfig-vscode"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+  + ESLint <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/Microsoft/vscode-eslint"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+  + Prettier - Code formatter <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"><img src=".github/images/vscode.svg" width="16" height="16" valign="middle" title="Plugin" /></a> <a href="https://github.com/prettier/prettier-vscode"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
 
 ### Quick Start
 

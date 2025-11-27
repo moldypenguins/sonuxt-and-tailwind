@@ -33,6 +33,7 @@
   "extensions": {
     "recommendations": [
       "vue.volar",
+      "antfu.vite",
       "vitest.explorer",
       "dbaeumer.vscode-eslint",
       "esbenp.prettier-vscode",
