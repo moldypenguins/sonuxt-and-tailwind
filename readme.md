@@ -20,10 +20,10 @@ Sonuxt &amp; Tailwind
 
 [![Contributors](https://img.shields.io/github/contributors/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Open Issues](https://img.shields.io/github/issues/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![Open Pull Requests](https://img.shields.io/github/issues-pr/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
-[![Last Commit](https://img.shields.io/github/last-commit/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
+[![Open Pulls](https://img.shields.io/github/issues-pr/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Pulls)][github-href]
+[![Last Commit](https://img.shields.io/github/last-commit/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
+[![Workflow](https://img.shields.io/github/actions/workflow/status/moldypenguins/sonuxt-and-tailwind/.github%2Fworkflows%2Fci.yml?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]  
 
-[![Workflow](https://img.shields.io/github/actions/workflow/status/moldypenguins/sonuxt-and-tailwind/.github%2Fworkflows%2Fci.yml?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![CodeQL](https://img.shields.io/badge/CodeQL-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF)][github-href]
 [![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=FFFFFF)][github-href]
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=FFFFFF)][github-href]
