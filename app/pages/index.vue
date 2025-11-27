@@ -27,7 +27,7 @@ const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 
 useSeoMeta({
-  titleTemplate: '',
+  titleTemplate: '%s - Sonuxt & Tailwind',
   title,
   ogTitle: title,
   description,
@@ -41,12 +41,9 @@ useSeoMeta({
       <template #top>
         <HeroBackground />
       </template>
-
       <template #title>
         <MDC :value="page.title" unwrap="p" />
       </template>
-
-      <PromotionalVideo />
     </UPageHero>
 
     <UPageSection
@@ -58,7 +55,29 @@ useSeoMeta({
       :reverse="section.reverse"
       :features="section.features"
     >
-      <ImagePlaceholder />
+      <UPageCard variant="subtle">
+        <div
+          class="relative overflow-hidden rounded-sm border border-dashed border-accented opacity-75 flex items-center justify-center aspect-video"
+        >
+          <svg v-if="!section.image" class="absolute inset-0 h-full w-full stroke-inverted/10 px-0" fill="none">
+            <defs>
+              <pattern
+                id="pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e"
+                x="0"
+                y="0"
+                width="10"
+                height="10"
+                patternUnits="userSpaceOnUse"
+              >
+                <path d="M-3 13 15-5M-5 5l18-18M-1 21 17 3" />
+              </pattern>
+            </defs>
+            <rect stroke="none" fill="url(#pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e)" width="100%" height="100%" />
+          </svg>
+
+          <NuxtImg v-else="section.image" :src="section.image" alt="No Image" class="object-cover w-full h-full" />
+        </div>
+      </UPageCard>
     </UPageSection>
 
     <UPageSection :title="page.features.title" :description="page.features.description">

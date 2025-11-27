@@ -11,12 +11,8 @@ const { locale } = useI18n()
 const language = computed(() => locales[locale.value].code)
 const direction = computed(() => locales[locale.value].dir)
 
-const color_mode = useColorMode()
-const runtime = useRuntimeConfig()
-const app = useAppConfig()
-
-const is_dark = computed(() => color_mode.value === 'dark')
-const favicon = computed(() => (is_dark ? 'sonic.svg' : 'tails.svg'))
+const rt = useRuntimeConfig()
+const { favicon } = useAppConfig()
 
 useHead({
   meta: [
@@ -24,12 +20,12 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     //{ name: 'theme-color', key: 'theme-color', content: '' }
   ],
-  link: [{ rel: 'icon', href: favicon.value }],
+  link: [{ rel: 'icon', href: favicon.public }],
   htmlAttrs: { lang: language, dir: direction }
 })
 
 useSeoMeta({
-  titleTemplate: `%s - ${runtime.public.siteTitle}`
+  titleTemplate: `%s - ${rt.public.siteTitle}`
 })
 
 const { data: navigation } = await useAsyncData(

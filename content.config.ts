@@ -50,7 +50,8 @@ export default defineContentConfig({
             id: z.string().nonempty(),
             orientation: orientationEnum.optional(),
             reverse: z.boolean().optional(),
-            features: z.array(createFeatureItemSchema())
+            features: z.array(createFeatureItemSchema()),
+            image: z.string().optional()
           })
         ),
         features: createBaseSchema().extend({
@@ -88,7 +89,8 @@ export default defineContentConfig({
             id: z.string().nonempty(),
             orientation: orientationEnum.optional(),
             reverse: z.boolean().optional(),
-            features: z.array(createFeatureItemSchema())
+            features: z.array(createFeatureItemSchema()),
+            image: z.string().optional()
           })
         ),
         features: createBaseSchema().extend({

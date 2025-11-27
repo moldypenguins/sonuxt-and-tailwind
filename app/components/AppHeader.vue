@@ -33,20 +33,16 @@ const items = computed(() => [
       <NuxtLink to="/">
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
-      <TemplateMenu />
     </template>
 
     <UNavigationMenu :items="items" variant="link" />
 
     <template #right>
       <UContentSearchButton />
-      <UColorModeButton />
-      <ThemePicker />
-
+      <UColorModeSelect />
+      <LocaleSelect />
       <UButton icon="i-lucide-log-in" color="neutral" variant="ghost" to="/login" class="lg:hidden" />
-
       <UButton label="Sign in" color="neutral" variant="outline" to="/login" class="hidden lg:inline-flex" />
-
       <UButton
         label="Sign up"
         color="neutral"
@@ -54,7 +50,6 @@ const items = computed(() => [
         class="hidden lg:inline-flex"
         to="/signup"
       />
-      <LocaleSelect />
     </template>
 
     <template #body>

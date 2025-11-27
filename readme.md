@@ -34,12 +34,8 @@ Sonuxt &amp; Tailwind
 
 ---
 
-<a href="https://saas-template.nuxt.dev/" target="_blank">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-dark.png" />
-  <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png" />
-  <img alt="Nuxt SaaS Template" src="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png" />
-</picture>
+<a href="https://github.com/moldypenguins/sonuxt-and-tailwind" target="_blank">
+  <img alt="Sonuxt &amp; Tailwind Template" src=".github/images/template.png" />
 </a>
 
 ## Features

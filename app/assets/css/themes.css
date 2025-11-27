@@ -1,56 +1,60 @@
-:root {
-  --ui-primary: var(--ui-color-tails-300);
-  --ui-secondary: var(--ui-color-slate-300);
-  --ui-tertiary: var(--ui-color-slate-300);
-  --ui-success: var(--ui-color-green-300);
-  --ui-info: var(--ui-color-blue-300);
-  --ui-warning: var(--ui-color-amber-300);
-  --ui-error: var(--ui-color-red-300);
-  --ui-neutral: var(--ui-color-zinc-300);
+@layer theme {
+  :root,
+  :host,
+  .light {
+    --ui-primary: var(--color-tails-300);
+    --ui-secondary: var(--color-stone-300);
+    --ui-tertiary: var(--color-rose-300);
+    --ui-success: var(--color-green-300);
+    --ui-info: var(--color-cyan-300);
+    --ui-warning: var(--color-amber-300);
+    --ui-error: var(--color-red-300);
+    --ui-neutral: var(--color-zinc-300);
 
-  --ui-text-dimmed: var(--ui-color-neutral-400);
-  --ui-text-muted: var(--ui-color-neutral-500);
-  --ui-text-toned: var(--ui-color-neutral-600);
-  --ui-text: var(--ui-color-neutral-700);
-  --ui-text-highlighted: var(--ui-color-neutral-900);
-  --ui-text-inverted: white;
+    --ui-text-dimmed: var(--color-neutral-400);
+    --ui-text-muted: var(--color-neutral-500);
+    --ui-text-toned: var(--color-neutral-600);
+    --ui-text: var(--color-neutral-700);
+    --ui-text-highlighted: var(--color-neutral-900);
+    --ui-text-inverted: white;
 
-  --ui-bg: white;
-  --ui-bg-muted: var(--ui-color-neutral-50);
-  --ui-bg-elevated: var(--ui-color-neutral-100);
-  --ui-bg-accented: var(--ui-color-neutral-200);
-  --ui-bg-inverted: var(--ui-color-neutral-900);
+    --ui-bg: white;
+    --ui-bg-muted: var(--color-neutral-50);
+    --ui-bg-elevated: var(--color-neutral-100);
+    --ui-bg-accented: var(--color-neutral-200);
+    --ui-bg-inverted: var(--color-neutral-900);
 
-  --ui-border: var(--ui-color-neutral-200);
-  --ui-border-muted: var(--ui-color-neutral-200);
-  --ui-border-accented: var(--ui-color-neutral-300);
-  --ui-border-inverted: var(--ui-color-neutral-900);
-}
+    --ui-border: var(--color-neutral-200);
+    --ui-border-muted: var(--color-neutral-200);
+    --ui-border-accented: var(--color-neutral-300);
+    --ui-border-inverted: var(--color-neutral-900);
+  }
+  .dark {
+    --ui-primary: var(--color-sonic-700);
+    --ui-secondary: var(--color-slate-700);
+    --ui-tertiary: var(--color-purple-700);
+    --ui-success: var(--color-green-700);
+    --ui-info: var(--color-cyan-700);
+    --ui-warning: var(--color-amber-700);
+    --ui-error: var(--color-red-700);
+    --ui-neutral: var(--color-zinc-700);
 
-.dark {
-  --ui-primary: var(--ui-color-sonic-700);
-  --ui-secondary: var(--ui-color-zinc-700);
-  --ui-success: var(--ui-color-green-700);
-  --ui-info: var(--ui-color-blue-700);
-  --ui-warning: var(--ui-color-amber-700);
-  --ui-error: var(--ui-color-red-700);
-  --ui-neutral: var(--ui-color-zinc-700);
+    --ui-text-dimmed: var(--color-neutral-500);
+    --ui-text-muted: var(--color-neutral-400);
+    --ui-text-toned: var(--color-neutral-300);
+    --ui-text: var(--color-neutral-200);
+    --ui-text-highlighted: white;
+    --ui-text-inverted: var(--color-neutral-900);
 
-  --ui-text-dimmed: var(--ui-color-neutral-500);
-  --ui-text-muted: var(--ui-color-neutral-400);
-  --ui-text-toned: var(--ui-color-neutral-300);
-  --ui-text: var(--ui-color-neutral-200);
-  --ui-text-highlighted: white;
-  --ui-text-inverted: var(--ui-color-neutral-900);
+    --ui-bg: var(--color-neutral-900);
+    --ui-bg-muted: var(--color-neutral-800);
+    --ui-bg-elevated: var(--color-neutral-800);
+    --ui-bg-accented: var(--color-neutral-700);
+    --ui-bg-inverted: white;
 
-  --ui-bg: var(--ui-color-neutral-900);
-  --ui-bg-muted: var(--ui-color-neutral-800);
-  --ui-bg-elevated: var(--ui-color-neutral-800);
-  --ui-bg-accented: var(--ui-color-neutral-700);
-  --ui-bg-inverted: white;
-
-  --ui-border: var(--ui-color-neutral-800);
-  --ui-border-muted: var(--ui-color-neutral-700);
-  --ui-border-accented: var(--ui-color-neutral-700);
-  --ui-border-inverted: white;
+    --ui-border: var(--color-neutral-800);
+    --ui-border-muted: var(--color-neutral-700);
+    --ui-border-accented: var(--color-neutral-700);
+    --ui-border-inverted: white;
+  }
 }

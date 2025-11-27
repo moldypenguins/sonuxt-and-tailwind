@@ -1,6 +1,6 @@
 /* https://tailwindcss.com/docs/colors#default-color-palette-reference */
 /* https://ui.nuxt.com/docs/getting-started/theme/design-system */
-@theme {
+@theme static {
   --color-tails-50: oklch(0.974 0.02 74.66);
   --color-tails-100: oklch(0.941 0.05 76.89);
   --color-tails-200: oklch(0.89 0.107 81.24);

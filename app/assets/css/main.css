@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import 'tailwindcss' theme(static);
 @import '@nuxt/ui';
 
 @source "../../../content/**/*";
@@ -7,18 +7,17 @@
 /* https://ui.nuxt.com/docs/getting-started/theme/css-variables */
 @theme static {
   --spacing: 0.25rem;
-
-  --font-sans: 'Roboto Sans', 'PT Sans', sans-serif;
-  --font-serif: 'Roboto Serif', 'PT Serif', serif;
-  --font-mono: 'Roboto Mono', 'PT Mono', monospace;
-  --font-display: 'Roboto Condensed', 'PT Sans Narrow', sans-serif;
 }
 
-:root {
-  --ui-radius: 0.25rem;
-  --ui-container: 90rem;
-  --ui-header-height: --spacing(16);
+@layer theme {
+  :host,
+  :root {
+    --ui-radius: 0.25rem;
+    --ui-container: 90rem;
+    --ui-header-height: --spacing(16);
+  }
 }
 
-@import './colors';
-@import './themes';
+@import './fonts.css';
+@import './colors.css';
+@import './themes.css';
