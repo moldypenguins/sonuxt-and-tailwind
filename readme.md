@@ -160,10 +160,6 @@ pnpm start
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
-
 ## Attributions
 
 * [vitesse-nuxt](https://github.com/antfu/vitesse-nuxt) - [Anthony Fu](https://antfu.me)  
