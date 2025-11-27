@@ -34,7 +34,7 @@ Sonuxt &amp; Tailwind
 
 ---
 
-<a href="https://github.com/moldypenguins/sonuxt-and-tailwind" target="_blank">
+<a href="https://github.com/moldypenguins/sonuxt-and-tailwind" target="_blank" align="center">
   <img alt="Sonuxt &amp; Tailwind Template" src=".github/images/template.png" />
 </a>
 
