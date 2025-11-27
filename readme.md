@@ -9,7 +9,7 @@ Sonuxt &amp; Tailwind
 </h3>
 
 <h4 align="center">
-<em>A <img width="92" height="18" alt="NuxtUI" src=".github/images/nuxt-ui.svg" /> and <img width="127" height="16" alt="TailwindCSS" src=".github/images/tailwind-css.svg" /> Starter Template</em>
+<em>A production ready <img width="92" height="18" alt="NuxtUI" src=".github/images/nuxt-ui.svg" /> and <img width="127" height="16" alt="TailwindCSS" src=".github/images/tailwind-css.svg" /> Starter Template</em>
 </h4>
 
 ---
@@ -84,10 +84,14 @@ Sonuxt &amp; Tailwind
 <a href="https://www.typescriptlang.org/docs/"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
 <a href="https://github.com/microsoft/TypeScript"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-<a href="https://iconify.design/"><img src="https://img.shields.io/badge/Iconify-026C9C?style=for-the-badge&logo=iconify&logoColor=111827" valign="middle" /></a>
+<a href="https://iconify.design"><img src="https://img.shields.io/badge/Iconify-026C9C?style=for-the-badge&logo=iconify&logoColor=111827" valign="middle" /></a>
 <a href="https://iconify.design/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
 <a href="https://github.com/iconify/iconify"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A set of tools created to make it easy to work with different icon sets in a consistent way.
-  + Sets included: [Bootstrap Icons][bootstrap-href], [Flag Icons][flagicons-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
+  + Included: [IBM Carbon Icons][carbon-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
+
+<a href="https://fonts.bunny.net"><img src="https://img.shields.io/badge/Bunny%20Fonts-FFAA49?style=for-the-badge&logo=bunnydotnet&logoColor=183d6d" valign="middle" /></a>
+<a href="https://docs.bunny.net"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a> - An open-source, privacy-first web font platform designed to put privacy back into the internet.
+  + Included: [IBM Plex][ibm-href], [Paratype][pt-href]
 
 ## Environment 
 
@@ -181,16 +185,21 @@ See [LICENSE.md](LICENSE.md) or [https://opensource.org/license/mit](https://ope
 [coffee-href]: https://buymeacoffee.com/moldypenguins
 
 <!-- REPOSITORY LINKS -->
+[ibm-href]: https://www.ibm.com/plex
+[pt-href]: https://www.paratype.com
+
+<!-- REPOSITORY LINKS -->
 [github-href]: https://github.com/moldypenguins/sonuxt-and-tailwind
 [dependabot-href]: https://github.com/dependabot
 [renovate-href]: https://www.mend.io/renovate
 
 <!-- ICONS LINKS -->
 [iconify-href]: https://iconify.design
-[bootstrap-href]: https://icons.getbootstrap.com
+[carbon-href]: https://carbondesignsystem.com/elements/icons/library
 [flagicons-href]: https://flagicons.lipis.dev
 [lucide-href]:https://lucide.dev
 [simpleicons-href]: https://simpleicons.org
 
 <!-- TOOLS LINKS -->
 [palette-href]: https://www.tints.dev
+[picker-href]: https://oklch.com

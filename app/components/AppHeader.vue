@@ -5,6 +5,7 @@
 -->
 <script setup lang="ts">
 const route = useRoute()
+const { header } = useAppConfig()
 
 const items = computed(() => [
   {
@@ -28,11 +29,12 @@ const items = computed(() => [
 </script>
 
 <template>
-  <UHeader>
+  <UHeader :to="header?.to || '/'">
     <template #left>
-      <NuxtLink to="/">
-        <AppLogo class="w-auto h-6 shrink-0" />
-      </NuxtLink>
+      <AppLogo class="w-auto h-8 shrink-0 align-middle" />
+    </template>
+    <template v-if="header?.title" #title>
+      <span>{{ header.title }}</span>
     </template>
 
     <UNavigationMenu :items="items" variant="link" />
@@ -43,12 +45,14 @@ const items = computed(() => [
       <LocaleSelect />
       <UButton icon="i-lucide-log-in" color="neutral" variant="ghost" to="/login" class="lg:hidden" />
       <UButton label="Sign in" color="neutral" variant="outline" to="/login" class="hidden lg:inline-flex" />
+      <UButton icon="i-lucide-square-pen" color="neutral" variant="ghost" to="/signup" class="lg:hidden" />
       <UButton
         label="Sign up"
-        color="neutral"
         trailing-icon="i-lucide-arrow-right"
-        class="hidden lg:inline-flex"
+        color="neutral"
+        variant="solid"
         to="/signup"
+        class="hidden lg:inline-flex"
       />
     </template>
 

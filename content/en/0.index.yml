@@ -20,7 +20,7 @@ hero:
       to: https://github.com/moldypenguins/sonuxt-and-tailwind
       target: _blank
 sections:
-  - title: Powered by Nuxt UI Components
+  - title: Cowered by Nuxt UI Components
     description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
     id: features
     orientation: horizontal
@@ -34,7 +34,8 @@ sections:
       - name: TypeScript First
         description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
         icon: i-lucide-code-2
-    image: /template.png
+    image:
+      src: /template.png
   - title: Built for Modern SaaS
     description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
     orientation: horizontal

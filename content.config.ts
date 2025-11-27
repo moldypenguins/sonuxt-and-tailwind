@@ -51,7 +51,7 @@ export default defineContentConfig({
             orientation: orientationEnum.optional(),
             reverse: z.boolean().optional(),
             features: z.array(createFeatureItemSchema()),
-            image: z.string().optional()
+            image: createImageSchema().optional()
           })
         ),
         features: createBaseSchema().extend({
@@ -90,7 +90,7 @@ export default defineContentConfig({
             orientation: orientationEnum.optional(),
             reverse: z.boolean().optional(),
             features: z.array(createFeatureItemSchema()),
-            image: z.string().optional()
+            image: createImageSchema().optional()
           })
         ),
         features: createBaseSchema().extend({

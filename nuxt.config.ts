@@ -25,6 +25,7 @@ export default defineNuxtConfig({
     https: parseInt(process.env.NUXT_DEVSERVER_HTTPS || '0') === 1 ? true : false
   },
 
+  debug: (process.env.NODE_ENV || 'local') === 'debug',
   devtools: { enabled: (process.env.NODE_ENV || 'local') !== 'production' },
 
   content: {
@@ -36,7 +37,7 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  fonts: { provider: 'google' },
+  fonts: { provider: 'bunny' },
 
   icon: { provider: 'iconify', collections: ['bi', 'flag', 'lucide', 'simple-icons'] },
 

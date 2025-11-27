@@ -1,8 +1,8 @@
-title: Ship Your [SaaS]{class="text-primary"} at light speed
-description: Build production-ready SaaS applications with Nuxt UI's powerful components, authentication flows, and enterprise features. The same component library trusted by the entire Nuxt ecosystem.
+title: '[Sonuxt]{class="text-sonic-700"} &amp; [Tailwind]{class="text-tails-300"}'
+description: A production ready Nuxt UI and Tailwind CSS starter template.
 seo:
-  title: Nuxt UI SaaS Template
-  description: Create stunning, fast and production-ready SaaS applications with Nuxt UI. 100+ Vue components, authentication, dark mode, and enterprise features built on Tailwind CSS.
+  title: Home
+  description: A production ready Nuxt UI and Tailwind CSS starter template.
 navigation: false
 hero:
   links:
@@ -17,10 +17,10 @@ hero:
       size: xl
       color: neutral
       variant: subtle
-      to: https://github.com/nuxt-ui-templates/saas
+      to: https://github.com/moldypenguins/sonuxt-and-tailwind
       target: _blank
 sections:
-  - title: Powered by Nuxt UI Components
+  - title: Zowered by Nuxt UI Components
     description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
     id: features
     orientation: horizontal
@@ -34,6 +34,9 @@ sections:
       - name: TypeScript First
         description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
         icon: i-lucide-code-2
+    image:
+      - src: template.png
+      - alt: Sonuxt &amp; Tailwind Template
   - title: Built for Modern SaaS
     description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
     orientation: horizontal

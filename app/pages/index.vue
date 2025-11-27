@@ -54,12 +54,13 @@ useSeoMeta({
       :orientation="section.orientation"
       :reverse="section.reverse"
       :features="section.features"
+      class="text-display"
     >
       <UPageCard variant="subtle">
         <div
           class="relative overflow-hidden rounded-sm border border-dashed border-accented opacity-75 flex items-center justify-center aspect-video"
         >
-          <svg v-if="!section.image" class="absolute inset-0 h-full w-full stroke-inverted/10 px-0" fill="none">
+          <svg v-if="!section.image?.src" class="absolute inset-0 h-full w-full stroke-inverted/10 px-0" fill="none">
             <defs>
               <pattern
                 id="pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e"
@@ -75,7 +76,7 @@ useSeoMeta({
             <rect stroke="none" fill="url(#pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e)" width="100%" height="100%" />
           </svg>
 
-          <NuxtImg v-else="section.image" :src="section.image" alt="No Image" class="object-cover w-full h-full" />
+          <NuxtImg v-else :src="section.image.src" :alt="section.image.src" class="object-cover w-full h-full" />
         </div>
       </UPageCard>
     </UPageSection>

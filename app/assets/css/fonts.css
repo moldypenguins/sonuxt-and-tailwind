@@ -1,6 +1,6 @@
 @theme static {
-  --font-sans: 'Roboto Sans', 'PT Sans', sans-serif;
-  --font-serif: 'Roboto Serif', 'PT Serif', serif;
-  --font-mono: 'Roboto Mono', 'PT Mono', monospace;
-  --font-display: 'Roboto Condensed', 'PT Sans Narrow', sans-serif;
+  --font-sans: 'IBM Plex Sans', 'PT Sans', sans-serif;
+  --font-serif: 'IBM Plex Serif', 'PT Serif', serif;
+  --font-mono: 'IBM Plex Mono', 'PT Mono', monospace;
+  --font-display: 'IBM Plex Sans Condensed', 'PT Sans Narrow', sans-serif;
 }

@@ -38,14 +38,18 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "npx prettier --check .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
-    "@ai-sdk/google": "^2.0.42",
+    "@ai-sdk/openai": "^2.0.74",
+    "@ai-sdk/openai-compatible": "^1.0.28",
     "@ai-sdk/mcp": "^0.0.8",
+    "@ai-sdk/provider": "^2.0.0",
+    "@ai-sdk/provider-utils": "^3.0.18",
     "@ai-sdk/vue": "^2.0.100",
-    "@iconify-json/bi": "1.2.6",
-    "@iconify-json/flag": "^1.2.10",
+    "@iconify-json/carbon": "^1.2.14",
     "@iconify-json/lucide": "^1.2.74",
     "@iconify-json/simple-icons": "^1.2.59",
     "@nuxt/content": "^3.8.2",
