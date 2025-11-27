@@ -30,7 +30,7 @@ Sonuxt &amp; Tailwind
 [![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=FFFFFF)][github-href]
 [![Renovate](https://img.shields.io/badge/renovate-308BE3?style=for-the-badge&logo=renovate&logoColor=FFFFFF)][renovate-href]
 [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA)][sponsor-href]
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
 
 ---
 
