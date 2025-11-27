@@ -1,5 +1,7 @@
 <p align="center">
+<a href="https://github.com/moldypenguins/sonuxt-and-tailwind">
 <img alt="Sonuxt &amp; Tailwind" src=".github/images/logo.gif" />
+</a>
 </p>
 
 <h3 align="center">
@@ -33,10 +35,11 @@ Sonuxt &amp; Tailwind
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
 
 ---
-
-<a href="https://github.com/moldypenguins/sonuxt-and-tailwind" target="_blank" align="center">
+<p align="center">
+<a href="https://github.com/moldypenguins/sonuxt-and-tailwind">
   <img alt="Sonuxt &amp; Tailwind Template" src=".github/images/template.png" />
 </a>
+</p>
 
 ## Features
 
