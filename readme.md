@@ -74,7 +74,7 @@ Sonuxt &amp; Tailwind
 <a href="https://pinia.vuejs.org/core-concepts"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
 <a href="https://github.com/vuejs/pinia"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - Intuitive, type safe and flexible Store for Vue.
 
-<a href="https://ai-sdk.dev"><img src="https://img.shields.io/badge/AI%20SDK-06B6D4?style=for-the-badge&logo=vercel&logoColor=000000" valign="middle" /></a>
+<a href="https://ai-sdk.dev"><img src="https://img.shields.io/badge/AI%20SDK-FFFFFF?style=for-the-badge&logo=vercel&logoColor=000000" valign="middle" /></a>
 <a href="https://ai-sdk.dev/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
 <a href="https://github.com/vercel/ai"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A toolkit designed to help you build AI-powered applications and agents.
 
