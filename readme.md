@@ -46,10 +46,10 @@ Sonuxt &amp; Tailwind
 ## Features
 
 <a href="https://nuxt.com"><img src="https://img.shields.io/badge/Nuxt%204-00DC82?style=for-the-badge&logo=nuxt&logoColor=020420" valign="middle" /></a>
-<a href="https://nuxt.com/docs/4.x/"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/nuxt/nuxt"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - SSR, ESR, File-based routing, components auto importing, modules, etc.
+<a href="https://nuxt.com/docs/4.x/"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/nuxt/nuxt"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - SSR, ESR, File-based routing, components auto importing, modules, etc.
   + Modules included:
-    - [NuxtUI](https://github.com/nuxt/ui) - The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS.
+    - [NuxtUI](https://github.com/nuxt/ui) - The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. #51a2ff
     - [NuxtContent](https://github.com/nuxt/content) - The file-based CMS for your Nuxt application, powered by Markdown and Vue components.
     - [NuxtI18n](https://github.com/nuxt-modules/i18n) - Internationalization (i18n) for Nuxt apps.
     - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs.
@@ -59,37 +59,37 @@ Sonuxt &amp; Tailwind
     - [DevTools](https://github.com/nuxt/devtools) - Unleash Nuxt Developer Experience.
   
 <a href="https://nitro.build"><img src="https://img.shields.io/badge/Nitro-ECDC5A?style=for-the-badge&logo=unjs&logoColor=000000" valign="middle" /></a>
-<a href="https://nitro.build/guide"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/nitrojs/nitro"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - Extends your Vite app with a production-ready server, designed to run anywhere.
+<a href="https://nitro.build/guide"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/nitrojs/nitro"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - Extends your Vite app with a production-ready server, designed to run anywhere.
 
 <a href="https://vite.dev"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=000000" valign="middle" /></a>
-<a href="https://nuxt.com/docs/4.x"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/nuxt/nuxt"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A blazing fast frontend build tool powering the next generation of web applications.
+<a href="https://nuxt.com/docs/4.x"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/nuxt/nuxt"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A blazing fast frontend build tool powering the next generation of web applications.
 
 <a href="https://vuejs.org"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=000000" valign="middle" /></a>
-<a href="https://vuejs.org/guide"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/vuejs/core"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+<a href="https://vuejs.org/guide"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/vuejs/core"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
 <a href="https://pinia.vuejs.org"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=111827" valign="middle" /></a>
-<a href="https://pinia.vuejs.org/core-concepts"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/vuejs/pinia"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - Intuitive, type safe and flexible Store for Vue.
+<a href="https://pinia.vuejs.org/core-concepts"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/vuejs/pinia"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - Intuitive, type safe and flexible Store for Vue.
 
 <a href="https://ai-sdk.dev"><img src="https://img.shields.io/badge/AI%20SDK-FFFFFF?style=for-the-badge&logo=vercel&logoColor=000000" valign="middle" /></a>
-<a href="https://ai-sdk.dev/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/vercel/ai"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A toolkit designed to help you build AI-powered applications and agents.
+<a href="https://ai-sdk.dev/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/vercel/ai"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A toolkit designed to help you build AI-powered applications and agents.
 
 <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=000000" valign="middle" /></a>
-<a href="https://tailwindcss.com/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/tailwindlabs/tailwindcss"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
+<a href="https://tailwindcss.com/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/tailwindlabs/tailwindcss"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
 
 <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=000000" valign="middle" /></a>
-<a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/microsoft/TypeScript"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a>- A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+<a href="https://www.typescriptlang.org/docs/"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/microsoft/TypeScript"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>- A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
 <a href="https://iconify.design/"><img src="https://img.shields.io/badge/Iconify-026C9C?style=for-the-badge&logo=iconify&logoColor=111827" valign="middle" /></a>
-<a href="https://iconify.design/docs"><img src="https://img.shields.io/badge/-4285F4?style=for-the-badge&logo=googledocs&logoColor=FFFFFF" valign="middle" /></a>
-<a href="https://github.com/iconify/iconify"><img src="https://img.shields.io/badge/-30363D?style=for-the-badge&logo=github&logoColor=FFFFFF" valign="middle" /></a> - A set of tools created to make it easy to work with different icon sets in a consistent way.
-  + Included: [Bootstrap Icons][bootstrap-href], [Flag Icons][flagicons-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
+<a href="https://iconify.design/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/iconify/iconify"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A set of tools created to make it easy to work with different icon sets in a consistent way.
+  + Sets included: [Bootstrap Icons][bootstrap-href], [Flag Icons][flagicons-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
 
 ## Environment 
 
