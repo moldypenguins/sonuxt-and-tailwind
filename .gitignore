@@ -18,10 +18,13 @@ logs
 .fleet
 .idea
 
+# VSC
+.history
+
 # Local env files
 .env
 .env.*
 !.env.example
 
-# VSC
-.history
+# App local env file
+env/local.ts

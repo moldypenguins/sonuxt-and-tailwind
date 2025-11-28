@@ -1,5 +1,6 @@
 import mkcert from 'vite-plugin-mkcert'
 import UnheadVite from '@unhead/addons/vite'
+import env from './env'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -12,7 +13,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    'nuxt-auth-utils',
     'nuxt-charts',
     'nuxt-llms',
     'nuxt-og-image',
@@ -20,18 +20,16 @@ export default defineNuxtConfig({
   ],
 
   devServer: {
-    host: process.env.NUXT_DEVSERVER_HOST || 'localhost',
-    port: parseInt(process.env.NUXT_DEVSERVER_PORT || '3000'),
-    https: parseInt(process.env.NUXT_DEVSERVER_HTTPS || '0') === 1 ? true : false
+    host: env.DEVSERVER_HOST,
+    port: env.DEVSERVER_PORT,
+    https: env.DEVSERVER_HTTPS
   },
 
-  debug: (process.env.NODE_ENV || 'local') === 'debug',
-  devtools: { enabled: (process.env.NODE_ENV || 'local') !== 'production' },
+  debug: env.NODE_ENV === 'debug',
 
-  content: {
-    experimental: { sqliteConnector: 'native' },
-    build: { markdown: { highlight: { theme: { default: 'github-light', dark: 'github-dark' } } } }
-  },
+  devtools: { enabled: env.NODE_ENV !== 'production' },
+
+  content: { build: { markdown: { highlight: { theme: { default: 'github-light', dark: 'github-dark' } } } } },
 
   colorMode: { preference: 'light' },
 
@@ -46,30 +44,21 @@ export default defineNuxtConfig({
   router: { options: { scrollBehaviorType: 'smooth' } },
 
   routeRules: {
-    //'/api/**': { cors: true },
+    '/api/**': { cors: true },
     '/docs': { redirect: '/docs/getting-started', prerender: false }
-  },
-
-  runtimeConfig: {
-    public: {
-      siteUrl: 'http://localhost:3000',
-      siteTitle: 'Sonuxt & Tailwind',
-      siteDescription: 'A NuxtUI and TailwindCSS Starter Template.'
-    }
   },
 
   // By default, Nuxt 4 auto-imports stores from app/stores
   pinia: { storesDirs: ['./data/stores'] },
 
   future: {
-    compatibilityVersion: 5,
+    compatibilityVersion: 4,
     typescriptBundlerResolution: true
   },
 
   compatibilityDate: '2025-01-15',
 
   experimental: {
-    /*
     asyncContext: true,
     asyncEntry: true,
     clientFallback: true,
@@ -79,12 +68,16 @@ export default defineNuxtConfig({
     payloadExtraction: true,
     renderJsonPayloads: true,
     restoreState: true,
-    typescriptPlugin: true
-    */
+    typescriptPlugin: true,
     viewTransition: true
   },
 
   nitro: {
+    esbuild: {
+      options: {
+        target: 'esnext'
+      }
+    },
     prerender: {
       routes: ['/'],
       crawlLinks: true,
@@ -131,7 +124,7 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: process.env.NUXT_PUBLIC_SITE_URL || 'localhost'
+    domain: env.SITE_URL
     /*
     title: environment.site.title,
     description: environment.site.description,

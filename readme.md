@@ -10,7 +10,7 @@
 </p>
 
 <h3 align="center">
-<em>A production ready <img width="92" height="18" alt="NuxtUI" src=".github/images/nuxt-ui.svg" /> and <img width="127" height="16" alt="TailwindCSS" src=".github/images/tailwind-css.svg" /> starter template</em>
+<em>A production-ready <img width="92" height="18" alt="NuxtUI" src=".github/images/nuxt-ui.svg" /> and <img width="127" height="16" alt="TailwindCSS" src=".github/images/tailwind-css.svg" /> starter template</em>
 </h3>
 
 ---
@@ -66,6 +66,17 @@
 <a href="https://github.com/vuejs/core"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
 
 * A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+<a href="https://www.better-auth.com"></a>
+<a href="https://www.better-auth.com/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
+<a href="https://github.com/better-auth/better-auth"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>
+
+* A framework-agnostic, universal authentication and authorization framework for TypeScript.
+
+<a href="https://github.com/WiseLibs/better-sqlite3"></a>
+<a href="https://github.com/WiseLibs/better-sqlite3"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> 
+
+* The fastest and simplest library for SQLite in Node.js.
 
 <a href="https://pinia.vuejs.org"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=111827" valign="middle" /></a>
 <a href="https://pinia.vuejs.org/core-concepts"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
@@ -131,10 +142,13 @@ npx degit moldypenguins/sonuxt-and-tailwind [my-nuxt-app]
 
 ### Setup
 
-If you don't have pnpm installed, run:
+If you don't have pnpm or corepack installed, run:
 
 ```bash
-npm install -g pnpm
+npm install -g corepack@latest pnpm@latest
+corepack enable pnpm
+pnpm self-update
+corepack use pnpm@latest
 ```
 
 Install the dependencies:

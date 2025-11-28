@@ -7,25 +7,17 @@
 import type { Collections } from '@nuxt/content'
 import * as locales from '@nuxt/ui/locale'
 
+const { header } = useAppConfig()
 const { locale } = useI18n()
 const language = computed(() => locales[locale.value].code)
 const direction = computed(() => locales[locale.value].dir)
 
-const rt = useRuntimeConfig()
-const { favicon } = useAppConfig()
-
 useHead({
-  meta: [
-    { charset: 'utf-8' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-    //{ name: 'theme-color', key: 'theme-color', content: '' }
-  ],
-  link: [{ rel: 'icon', href: favicon.public }],
   htmlAttrs: { lang: language, dir: direction }
 })
 
 useSeoMeta({
-  titleTemplate: `%s - ${rt.public.siteTitle}`
+  titleTemplate: `%s - ${header.title}`
 })
 
 const { data: navigation } = await useAsyncData(
@@ -43,29 +35,6 @@ const { data: files } = useLazyAsyncData(
   }
 )
 
-const links = [
-  {
-    label: 'Docs',
-    icon: 'i-lucide-book',
-    to: '/docs/getting-started'
-  },
-  {
-    label: 'Pricing',
-    icon: 'i-lucide-credit-card',
-    to: '/pricing'
-  },
-  {
-    label: 'Blog',
-    icon: 'i-lucide-pencil',
-    to: '/blog'
-  },
-  {
-    label: 'Changelog',
-    icon: 'i-lucide-history',
-    to: '/changelog'
-  }
-]
-
 provide('navigation', navigation)
 </script>
 
@@ -82,9 +51,23 @@ provide('navigation', navigation)
         :files="files"
         shortcut="meta_k"
         :navigation="navigation"
-        :links="links"
+        :links="header.links"
         :fuse="{ resultLimit: 42 }"
       />
     </ClientOnly>
   </UApp>
 </template>
+
+<style>
+html,
+body,
+#__nuxt {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+</style>
