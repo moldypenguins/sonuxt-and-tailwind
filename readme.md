@@ -17,7 +17,9 @@
 
 [![License](https://img.shields.io/github/license/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Issues](https://img.shields.io/github/issues-raw/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Issues)][github-href]
-[![Pull Requests](https://img.shields.io/github/issues-pr-raw/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Pull%20Reqs)][github-href]  
+[![Pull Requests](https://img.shields.io/github/issues-pr-raw/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Pull%20Reqs)][github-href]
+[![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA)][sponsor-href]
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
 [![Release](https://img.shields.io/github/v/release/moldypenguins/sonuxt-and-tailwind?include_prereleases&style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D)][github-href]
 [![Released](https://img.shields.io/github/release-date-pre/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Released)][github-href]
 [![Repo Size](https://img.shields.io/github/repo-size/moldypenguins/sonuxt-and-tailwind?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=30363D&label=Size)][github-href]  
@@ -29,8 +31,7 @@
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=FFFFFF)][github-href]
 [![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=FFFFFF)][github-href]
 [![Renovate](https://img.shields.io/badge/renovate-308BE3?style=for-the-badge&logo=renovate&logoColor=FFFFFF)][renovate-href]  
-[![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA)][sponsor-href]
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20Coffee-30363D?style=for-the-badge&logo=buymeacoffee&logoColor=FFDD00)][coffee-href]  
+  
 
 ---
 <p align="center">
