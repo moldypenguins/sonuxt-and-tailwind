@@ -31,9 +31,9 @@
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=FFFFFF)][github-href]
 [![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=FFFFFF)][github-href]
 [![Renovate](https://img.shields.io/badge/renovate-308BE3?style=for-the-badge&logo=renovate&logoColor=FFFFFF)][renovate-href]  
-  
 
 ---
+
 <p align="center">
 <a href="https://github.com/moldypenguins/sonuxt-and-tailwind">
   <img alt="Sonuxt &amp; Tailwind Template" src=".github/images/template.png" />
@@ -44,7 +44,9 @@
 
 <a href="https://nuxt.com"><img src="https://img.shields.io/badge/Nuxt%204-00DC82?style=for-the-badge&logo=nuxt&logoColor=020420" valign="middle" /></a>
 <a href="https://nuxt.com/docs/4.x/"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/nuxt/nuxt"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - SSR, ESR, File-based routing, components auto importing, modules, etc.
+<a href="https://github.com/nuxt/nuxt"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* SSR, ESR, File-based routing, components auto importing, modules, etc.
   + Modules included:
     - [NuxtUI](https://github.com/nuxt/ui) - The Intuitive Vue UI Library powered by Reka UI & Tailwind CSS. #51a2ff
     - [NuxtContent](https://github.com/nuxt/content) - The file-based CMS for your Nuxt application, powered by Markdown and Vue components.
@@ -57,39 +59,57 @@
   
 <a href="https://nitro.build"><img src="https://img.shields.io/badge/Nitro-ECDC5A?style=for-the-badge&logo=unjs&logoColor=000000" valign="middle" /></a>
 <a href="https://nitro.build/guide"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/nitrojs/nitro"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - Extends your Vite app with a production-ready server, designed to run anywhere.
+<a href="https://github.com/nitrojs/nitro"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* Extends your Vite app with a production-ready server, designed to run anywhere.
 
 <a href="https://vite.dev"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=000000" valign="middle" /></a>
 <a href="https://nuxt.com/docs/4.x"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/nuxt/nuxt"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A blazing fast frontend build tool powering the next generation of web applications.
+<a href="https://github.com/nuxt/nuxt"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* A blazing fast frontend build tool powering the next generation of web applications.
 
 <a href="https://vuejs.org"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=000000" valign="middle" /></a>
 <a href="https://vuejs.org/guide"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/vuejs/core"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+<a href="https://github.com/vuejs/core"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* A progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
 <a href="https://pinia.vuejs.org"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=111827" valign="middle" /></a>
 <a href="https://pinia.vuejs.org/core-concepts"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/vuejs/pinia"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - An intuitive, type safe and flexible Store for Vue.
+<a href="https://github.com/vuejs/pinia"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* An intuitive, type safe and flexible Store for Vue.
 
 <a href="https://ai-sdk.dev"><img src="https://img.shields.io/badge/AI%20SDK-FFFFFF?style=for-the-badge&logo=vercel&logoColor=000000" valign="middle" /></a>
 <a href="https://ai-sdk.dev/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/vercel/ai"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A toolkit designed to help you build AI-powered applications and agents.
+<a href="https://github.com/vercel/ai"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* A toolkit designed to help you build AI-powered applications and agents.
 
 <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=000000" valign="middle" /></a>
 <a href="https://tailwindcss.com/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/tailwindlabs/tailwindcss"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
+<a href="https://github.com/tailwindlabs/tailwindcss"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
 
 <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=000000" valign="middle" /></a>
 <a href="https://www.typescriptlang.org/docs/"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/microsoft/TypeScript"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+<a href="https://github.com/microsoft/TypeScript"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
 <a href="https://iconify.design"><img src="https://img.shields.io/badge/Iconify-026C9C?style=for-the-badge&logo=iconify&logoColor=111827" valign="middle" /></a>
 <a href="https://iconify.design/docs"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>
-<a href="https://github.com/iconify/iconify"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a> - A set of tools created to make it easy to work with different icon sets in a consistent way.
+<a href="https://github.com/iconify/iconify"><img src=".github/images/github.svg" width="16" height="16" valign="middle" title="Repo" /></a>  
+
+* A set of tools created to make it easy to work with different icon sets in a consistent way.
   + Included: [IBM Carbon Icons][carbon-href], [Lucide Icons][lucide-href], [Simple Icons][simpleicons-href]
 
 <a href="https://fonts.bunny.net"><img src="https://img.shields.io/badge/Bunny%20Fonts-FFAA49?style=for-the-badge&logo=bunnydotnet&logoColor=183d6d" valign="middle" /></a>
-<a href="https://docs.bunny.net"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a> - An open-source, privacy-first web font platform designed to put privacy back into the internet.
+<a href="https://docs.bunny.net"><img src=".github/images/docs.svg" width="16" height="16" valign="middle" title="Docs" /></a>  
+
+* An open-source, privacy-first web font platform designed to put privacy back into the internet.
   + Included: [IBM Plex][ibm-href], [Paratype][pt-href]
 
 ## Environment 
