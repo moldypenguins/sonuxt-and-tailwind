@@ -32,9 +32,7 @@ const items = computed(() => [
   <UHeader :to="header?.to || '/'">
     <template #left>
       <AppLogo class="w-auto h-8 shrink-0 align-middle" />
-    </template>
-    <template v-if="header?.title" #title>
-      <span>{{ header.title }}</span>
+      <span v-if="header?.title">{{ header.title }}</span>
     </template>
 
     <UNavigationMenu :items="items" variant="link" />

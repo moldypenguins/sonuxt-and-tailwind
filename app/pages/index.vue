@@ -42,7 +42,7 @@ useSeoMeta({
         <HeroBackground />
       </template>
       <template #title>
-        <MDC :value="page.title" unwrap="p" />
+        <AppHeroLogo />
       </template>
     </UPageHero>
 

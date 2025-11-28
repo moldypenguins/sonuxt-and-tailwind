@@ -1,16 +1,17 @@
 <p align="center">
 <a href="https://github.com/moldypenguins/sonuxt-and-tailwind">
-<img alt="Sonuxt &amp; Tailwind" src=".github/images/logo.gif" />
+<img alt="Sonuxt &amp; Tailwind" src=".github/images/logo.gif" />  
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/moldypenguins/sonuxt-and-tailwind">
+<img alt="Sonuxt &amp; Tailwind" src=".github/images/title.svg" width="50%" />  
 </a>
 </p>
 
 <h3 align="center">
-Sonuxt &amp; Tailwind
+<em>A production ready <img width="92" height="18" alt="NuxtUI" src=".github/images/nuxt-ui.svg" /> and <img width="127" height="16" alt="TailwindCSS" src=".github/images/tailwind-css.svg" /> starter template</em>
 </h3>
-
-<h4 align="center">
-<em>A production ready <img width="92" height="18" alt="NuxtUI" src=".github/images/nuxt-ui.svg" /> and <img width="127" height="16" alt="TailwindCSS" src=".github/images/tailwind-css.svg" /> Starter Template</em>
-</h4>
 
 ---
 
