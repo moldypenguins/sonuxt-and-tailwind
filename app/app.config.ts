@@ -42,7 +42,9 @@ export default defineAppConfig({
       }
     ]
   },
-  credits: `Built with simple-icons:nuxt and simple-icons:tailwindcss • Copyright © 2010 - ${new Date().getFullYear()} CR Development`,
+  footer: {
+    credits: `Built with simple-icons:nuxt and simple-icons:tailwindcss • Copyright © 2010 - ${new Date().getFullYear()} CR Development`
+  },
   toaster: {
     position: 'bottom-right' as const,
     duration: 5000,
